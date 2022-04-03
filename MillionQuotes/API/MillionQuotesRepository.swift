@@ -9,7 +9,7 @@ import Foundation
 
 final class MillionQuotesRepository {
     
-    let baseURL = "https://programming-quotes-api.herokuapp.com"
+    private let baseURL = "https://programming-quotes-api.herokuapp.com"
     
     enum Endpoint: String {
         case randomQuote = "/quotes/random"
