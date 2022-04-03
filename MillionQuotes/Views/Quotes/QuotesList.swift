@@ -18,6 +18,7 @@ struct QuotesList: View {
                     QuoteRow(quote: quote)
                 }
             }
+            .refreshable { viewModel.getQuotes() }
             .searchable(text: $viewModel.searchText)
             .navigationTitle("Quotes")
         }
