@@ -8,17 +8,37 @@
 
 /* Begin PBXBuildFile section */
 		B03173C727FA47B4000590E3 /* MillionQuotesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B03173C627FA47B4000590E3 /* MillionQuotesApp.swift */; };
-		B03173C927FA47B4000590E3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B03173C827FA47B4000590E3 /* ContentView.swift */; };
+		B03173C927FA47B4000590E3 /* QuotesList.swift in Sources */ = {isa = PBXBuildFile; fileRef = B03173C827FA47B4000590E3 /* QuotesList.swift */; };
 		B03173CB27FA47B6000590E3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B03173CA27FA47B6000590E3 /* Assets.xcassets */; };
 		B03173CE27FA47B6000590E3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B03173CD27FA47B6000590E3 /* Preview Assets.xcassets */; };
+		B03173D527FA4B97000590E3 /* MainTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B03173D427FA4B97000590E3 /* MainTabView.swift */; };
+		B03173DB27FA4BC6000590E3 /* MQAPIError.swift in Sources */ = {isa = PBXBuildFile; fileRef = B03173DA27FA4BC6000590E3 /* MQAPIError.swift */; };
+		B03173DE27FA4C3D000590E3 /* Quote.swift in Sources */ = {isa = PBXBuildFile; fileRef = B03173DD27FA4C3D000590E3 /* Quote.swift */; };
+		B03173E027FA4C51000590E3 /* QuotesListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B03173DF27FA4C51000590E3 /* QuotesListViewModel.swift */; };
+		B03173E227FA4C5F000590E3 /* MillionQuotesRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = B03173E127FA4C5F000590E3 /* MillionQuotesRepository.swift */; };
+		B03173E627FA4C7E000590E3 /* QuoteRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = B03173E527FA4C7E000590E3 /* QuoteRow.swift */; };
+		B03173E927FA4CD2000590E3 /* RandomQuoteScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = B03173E827FA4CD2000590E3 /* RandomQuoteScreen.swift */; };
+		B03173EC27FA4DCE000590E3 /* Resolver in Frameworks */ = {isa = PBXBuildFile; productRef = B03173EB27FA4DCE000590E3 /* Resolver */; };
+		B03173EF27FA4DF1000590E3 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = B03173EE27FA4DF1000590E3 /* Alamofire */; };
+		B03173F127FA4F9F000590E3 /* RandomQuote.swift in Sources */ = {isa = PBXBuildFile; fileRef = B03173F027FA4F9F000590E3 /* RandomQuote.swift */; };
+		B03173F327FA4FAF000590E3 /* RandomQuoteViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B03173F227FA4FAF000590E3 /* RandomQuoteViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		B03173C327FA47B4000590E3 /* MillionQuotes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MillionQuotes.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B03173C627FA47B4000590E3 /* MillionQuotesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MillionQuotesApp.swift; sourceTree = "<group>"; };
-		B03173C827FA47B4000590E3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		B03173C827FA47B4000590E3 /* QuotesList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuotesList.swift; sourceTree = "<group>"; };
 		B03173CA27FA47B6000590E3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B03173CD27FA47B6000590E3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		B03173D427FA4B97000590E3 /* MainTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabView.swift; sourceTree = "<group>"; };
+		B03173DA27FA4BC6000590E3 /* MQAPIError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MQAPIError.swift; sourceTree = "<group>"; };
+		B03173DD27FA4C3D000590E3 /* Quote.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Quote.swift; sourceTree = "<group>"; };
+		B03173DF27FA4C51000590E3 /* QuotesListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuotesListViewModel.swift; sourceTree = "<group>"; };
+		B03173E127FA4C5F000590E3 /* MillionQuotesRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MillionQuotesRepository.swift; sourceTree = "<group>"; };
+		B03173E527FA4C7E000590E3 /* QuoteRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuoteRow.swift; sourceTree = "<group>"; };
+		B03173E827FA4CD2000590E3 /* RandomQuoteScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomQuoteScreen.swift; sourceTree = "<group>"; };
+		B03173F027FA4F9F000590E3 /* RandomQuote.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomQuote.swift; sourceTree = "<group>"; };
+		B03173F227FA4FAF000590E3 /* RandomQuoteViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomQuoteViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,6 +46,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B03173EC27FA4DCE000590E3 /* Resolver in Frameworks */,
+				B03173EF27FA4DF1000590E3 /* Alamofire in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -51,8 +73,11 @@
 		B03173C527FA47B4000590E3 /* MillionQuotes */ = {
 			isa = PBXGroup;
 			children = (
+				B03173E327FA4C69000590E3 /* API */,
+				B03173DC27FA4C37000590E3 /* Models */,
+				B03173D927FA4BBB000590E3 /* Helpers */,
 				B03173C627FA47B4000590E3 /* MillionQuotesApp.swift */,
-				B03173C827FA47B4000590E3 /* ContentView.swift */,
+				B03173D627FA4B9B000590E3 /* Views */,
 				B03173CA27FA47B6000590E3 /* Assets.xcassets */,
 				B03173CC27FA47B6000590E3 /* Preview Content */,
 			);
@@ -65,6 +90,68 @@
 				B03173CD27FA47B6000590E3 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		B03173D627FA4B9B000590E3 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				B03173D827FA4BA5000590E3 /* MainTab */,
+				B03173E727FA4CCA000590E3 /* Random */,
+				B03173D727FA4BA0000590E3 /* Quotes */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		B03173D727FA4BA0000590E3 /* Quotes */ = {
+			isa = PBXGroup;
+			children = (
+				B03173C827FA47B4000590E3 /* QuotesList.swift */,
+				B03173E527FA4C7E000590E3 /* QuoteRow.swift */,
+				B03173DF27FA4C51000590E3 /* QuotesListViewModel.swift */,
+			);
+			path = Quotes;
+			sourceTree = "<group>";
+		};
+		B03173D827FA4BA5000590E3 /* MainTab */ = {
+			isa = PBXGroup;
+			children = (
+				B03173D427FA4B97000590E3 /* MainTabView.swift */,
+			);
+			path = MainTab;
+			sourceTree = "<group>";
+		};
+		B03173D927FA4BBB000590E3 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				B03173DA27FA4BC6000590E3 /* MQAPIError.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		B03173DC27FA4C37000590E3 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				B03173DD27FA4C3D000590E3 /* Quote.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		B03173E327FA4C69000590E3 /* API */ = {
+			isa = PBXGroup;
+			children = (
+				B03173E127FA4C5F000590E3 /* MillionQuotesRepository.swift */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		B03173E727FA4CCA000590E3 /* Random */ = {
+			isa = PBXGroup;
+			children = (
+				B03173E827FA4CD2000590E3 /* RandomQuoteScreen.swift */,
+				B03173F027FA4F9F000590E3 /* RandomQuote.swift */,
+				B03173F227FA4FAF000590E3 /* RandomQuoteViewModel.swift */,
+			);
+			path = Random;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +170,10 @@
 			dependencies = (
 			);
 			name = MillionQuotes;
+			packageProductDependencies = (
+				B03173EB27FA4DCE000590E3 /* Resolver */,
+				B03173EE27FA4DF1000590E3 /* Alamofire */,
+			);
 			productName = MillionQuotes;
 			productReference = B03173C327FA47B4000590E3 /* MillionQuotes.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +202,10 @@
 				Base,
 			);
 			mainGroup = B03173BA27FA47B4000590E3;
+			packageReferences = (
+				B03173EA27FA4DCE000590E3 /* XCRemoteSwiftPackageReference "Resolver" */,
+				B03173ED27FA4DF1000590E3 /* XCRemoteSwiftPackageReference "Alamofire" */,
+			);
 			productRefGroup = B03173C427FA47B4000590E3 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -137,8 +232,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B03173C927FA47B4000590E3 /* ContentView.swift in Sources */,
+				B03173C927FA47B4000590E3 /* QuotesList.swift in Sources */,
+				B03173E027FA4C51000590E3 /* QuotesListViewModel.swift in Sources */,
+				B03173DB27FA4BC6000590E3 /* MQAPIError.swift in Sources */,
+				B03173E227FA4C5F000590E3 /* MillionQuotesRepository.swift in Sources */,
 				B03173C727FA47B4000590E3 /* MillionQuotesApp.swift in Sources */,
+				B03173F127FA4F9F000590E3 /* RandomQuote.swift in Sources */,
+				B03173E927FA4CD2000590E3 /* RandomQuoteScreen.swift in Sources */,
+				B03173F327FA4FAF000590E3 /* RandomQuoteViewModel.swift in Sources */,
+				B03173DE27FA4C3D000590E3 /* Quote.swift in Sources */,
+				B03173D527FA4B97000590E3 /* MainTabView.swift in Sources */,
+				B03173E627FA4C7E000590E3 /* QuoteRow.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -339,6 +443,38 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		B03173EA27FA4DCE000590E3 /* XCRemoteSwiftPackageReference "Resolver" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/hmlongco/Resolver";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+		B03173ED27FA4DF1000590E3 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		B03173EB27FA4DCE000590E3 /* Resolver */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B03173EA27FA4DCE000590E3 /* XCRemoteSwiftPackageReference "Resolver" */;
+			productName = Resolver;
+		};
+		B03173EE27FA4DF1000590E3 /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B03173ED27FA4DF1000590E3 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = B03173BB27FA47B4000590E3 /* Project object */;
 }

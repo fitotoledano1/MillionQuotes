@@ -6,12 +6,19 @@
 //
 
 import SwiftUI
+import Resolver
 
 @main
 struct MillionQuotesApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            MainTabView()
         }
+    }
+}
+
+extension Resolver: ResolverRegistering {
+    public static func registerAllServices() {
+        register { MillionQuotesRepository() as MillionQuotesRepository }.scope(.application)
     }
 }
