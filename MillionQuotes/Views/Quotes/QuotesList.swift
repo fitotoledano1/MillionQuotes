@@ -14,10 +14,12 @@ struct QuotesList: View {
     var body: some View {
         NavigationView {
             List {
-                ForEach(viewModel.quotes) { quote in
+                ForEach(viewModel.searchResults) { quote in
                     QuoteRow(quote: quote)
                 }
-            }.navigationTitle("Quotes")
+            }
+            .searchable(text: $viewModel.searchText)
+            .navigationTitle("Quotes")
         }
         .onAppear {
             viewModel.getQuotes()

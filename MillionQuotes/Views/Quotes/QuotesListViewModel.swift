@@ -10,6 +10,17 @@ import Resolver
 
 final class QuotesListViewModel: ObservableObject {
     @Published private(set) var quotes: [Quote] = []
+    @Published var searchText = ""
+    
+    var searchResults: [Quote] {
+        if searchText.isEmpty {
+            return quotes
+        } else {
+            return quotes.filter {
+                $0.content.lowercased().contains(searchText.lowercased()) || $0.author.lowercased().contains(searchText.lowercased())
+            }
+        }
+    }
     
     private let repository: MillionQuotesRepository = Resolver.resolve()
     
